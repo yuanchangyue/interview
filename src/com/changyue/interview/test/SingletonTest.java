@@ -25,13 +25,15 @@ public class SingletonTest {
         System.out.println(singleton2);
         System.out.println(singleton3);
 
-    /*    //可能存在线程安全问题
+       /*
+         //可能存在线程安全问题
         Singleton4 singleton41 = Singleton4.getInstance();
         Singleton4 singleton42 = Singleton4.getInstance();
 
         System.out.println(singleton41);
         System.out.println(singleton42);
-        System.out.println(singleton41 == singleton42);*/
+        System.out.println(singleton41 == singleton42);
+        */
 
         Callable<Singleton5> callable = Singleton5::getInstance;
         ExecutorService service = Executors.newFixedThreadPool(2);
@@ -49,6 +51,5 @@ public class SingletonTest {
 
         Singleton6 singleton6 = Singleton6.getInstance();
         System.out.println(singleton6);
-
     }
 }
