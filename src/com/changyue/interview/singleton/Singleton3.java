@@ -1,4 +1,4 @@
-package com.changyue.interview.desgin;
+package com.changyue.interview.singleton;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -6,6 +6,7 @@ import java.util.Properties;
 /**
  * @program: interview
  * @description: 单例---饿汉式  类初始化直接创建对象 不管是否需要这个对象 线程安全
+ * 从properties文件中读取 带参构造器的值
  * @author: YuanChangYue
  * @create: 2019-10-08 14:05
  */

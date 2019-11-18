@@ -1,10 +1,10 @@
-package com.changyue.interview.desgin;
+package com.changyue.interview.singleton;
 
 /**
  * @program: interview
  * @description: 单例---饿汉式  类初始化直接创建对象 不管是否需要这个对象 线程安全
  * <p>
- * 1. 构造器私有化
+ * 1. 构造器私有化 不能被实例化
  * 2. 私有变量保存
  * <p>
  * @author: YuanChangYue

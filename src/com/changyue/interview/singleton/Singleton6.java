@@ -1,4 +1,4 @@
-package com.changyue.interview.desgin;
+package com.changyue.interview.singleton;
 
 
 /**

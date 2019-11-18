@@ -1,6 +1,6 @@
 package com.changyue.interview.test;
 
-import com.changyue.interview.desgin.*;
+import com.changyue.interview.singleton.*;
 
 import java.util.concurrent.*;
 
